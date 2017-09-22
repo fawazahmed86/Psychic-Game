@@ -18,14 +18,8 @@
   <br></br>
 
   <div id="game">
-    
   </div>
     
-
-
-
-
-
   <script type="text/javascript">
     
         var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -61,11 +55,8 @@
                   guess = 10;
                   empty = [];
                   userGuess = [];
-                  computerGuess = [];
-
-              
+                  computerGuess = [];         
                }
-
               }
               var html =
                 "<p>You chose: " + userGuess + "</p>" +
@@ -74,10 +65,7 @@
                 "<p>Losses: " + loss + "</p>" +
                 "<p>Attempts left: " + guess + "</p>" +
                 "<p>Your Guesses: " + empty + "</p>";
-                //  +
-                // "<p>ties: " + guess + "</p>";
-
-              // Set the inner HTML contents of the #game div to our html string
+              
                 document.querySelector("#game").innerHTML = html;
                }
 
